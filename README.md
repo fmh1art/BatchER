@@ -1,7 +1,5 @@
 # BatchER
 
-
-
 ## Quick Start
 
 ### Step 1: Environment Set up
@@ -46,3 +44,29 @@ python batcher.py --run_all
 ```bash
 python batcher.py --dataset_name "em-wa" --pkg_type "diverse" --demo_selection "covering"
 ```
+
+### Results
+
+After that, all results will be saved in `/output/`. A complete structure of results:
+
+```sh
+|-- output
+    |-- feature_extractor # main results
+        |-- StructureAware-ratio # structure aware feature extractor based on Levenshtein Ratio
+            |-- em-wa # datasets
+            ..
+        |-- StructureAware-jaro_winkler # structure aware feature extractor based on jw similarity
+            |-- em-wa
+        |-- SemanticAware-SBERT # semantic aware feature extractor based on SBERT embedding
+            |-- em-wa
+    |-- BPvsSP # compare batchprompting and standard prompting
+        |-- em-wa # datasets
+            |-- trial1 # one trial
+                |-- BatchPrompting # results of BatchPrompting
+                |-- StandardPrompting # results of StandardPrompting
+            |-- trial2
+            ...
+        ...
+```
+
+We also provide the experimental log of BatchER, seen in dir `output/__batcher_results_in_paper`
