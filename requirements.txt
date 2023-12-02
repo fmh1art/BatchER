@@ -1,0 +1,8 @@
+Levenshtein==0.21.0
+openai==0.27.4
+tiktoken==0.4.0
+torch==2.0.1
+transformers==4.22.1
+sentence-transformers==2.2.2
+fastbm25==0.0.2
+matplotlib==3.6.0
