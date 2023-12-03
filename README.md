@@ -41,11 +41,11 @@ More details can be found in our paper.
 
 ## Quick Start
 
-**Our code is designed for one-click execution.**
+:blush:Our code is designed for <u>one-click execution</u>. Follow the following steps to set up the environment and run with a single command!
 
 ### Step 1: Environment Set up
 
-Before installing packages, use `conda` to create an enveriment `batcher` with `python==3.9.13`:
+Use `conda` to create an enveriment `batcher` with `python==3.9.13`:
 
 ```bash
 conda create -name batcher python==3.9.13
