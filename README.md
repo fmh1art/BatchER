@@ -109,3 +109,7 @@ After that, all results will be saved in `/outputs/`. A complete structure of re
 ```
 
 We also provide the experimental log of BatchER, seen in dir `outputs/__batcher_results_in_paper/`
+
+## Acknowledgement
+
+We refer to the codes of [Unicorn](https://github.com/ruc-datalab/Unicorn). Thanks for the great contributions!
