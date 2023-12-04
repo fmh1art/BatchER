@@ -80,7 +80,7 @@ You can run BatchER in two modes:
 python batcher.py --run_all
 ```
 
-- run specific variants of BatchER, for example, if you want to run `diverse_batch + covering_based` on dataset `WA`:
+- run specific variants of BatchER. For example, if you want to run `diverse_batch + covering_based` on dataset `WA`:
 
 ```bash
 python batcher.py --dataset_name "em-wa" --pkg_type "diverse" --demo_selection "covering"
