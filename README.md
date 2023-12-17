@@ -48,7 +48,7 @@ More details can be found in our paper.
 Use `conda` to create an enveriment `batcher` with `python==3.9.13`:
 
 ```bash
-conda create -name batcher python==3.9.13
+conda create --name batcher python==3.9.13
 ```
 
 Then, install necessary packages with `requirements.txt`.
