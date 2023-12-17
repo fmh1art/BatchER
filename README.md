@@ -45,10 +45,11 @@ More details can be found in our paper.
 
 ### Step 1: Environment Set up
 
-Use `conda` to create an enveriment `batcher` with `python==3.9.13`:
+Use `conda` to create and activate an enveriment `batcher` with `python==3.9.13`:
 
 ```bash
 conda create --name batcher python==3.9.13
+conda activate batcher
 ```
 
 Then, install necessary packages with `requirements.txt`.
